@@ -1,0 +1,118 @@
+# Netflix Content Exploratory Data Analysis
+
+## Project Overview
+
+This project performs Exploratory Data Analysis (EDA) on a dataset of content available on Netflix.
+The goal is to understand patterns in Netflix content such as distribution of movies and TV shows, content growth over time, dominant production countries, genre popularity, and movie duration characteristics.
+
+The analysis uses Python data analysis libraries and multiple visualization techniques to uncover insights from the dataset.
+
+---
+
+## Dataset Information
+
+The dataset contains information about Netflix titles including:
+
+* Show ID
+* Content Type (Movie or TV Show)
+* Title
+* Director
+* Cast
+* Country
+* Date Added
+* Release Year
+* Rating
+* Duration
+* Genre
+* Description
+
+The dataset includes **8000+ Netflix titles** across multiple countries and genres.
+
+---
+
+## Tools and Libraries Used
+
+Python libraries used in this analysis:
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+The project was developed using **Jupyter Notebook in VS Code**.
+
+---
+
+## Project Workflow
+
+The analysis follows a structured Exploratory Data Analysis process:
+
+1. Data loading
+2. Dataset overview
+3. Duplicate detection
+4. Missing value analysis
+5. Data cleaning
+6. Univariate analysis
+7. Bivariate analysis
+8. Visualization and trend analysis
+9. Insight extraction
+
+---
+
+## Visualizations Performed
+
+The project includes multiple visualization techniques:
+
+* Countplots
+* Bar charts
+* Line plots
+* Histograms
+* KDE plots
+* Boxplots
+* Violin plots
+* Scatter plots
+* Subplots
+* Pairplots
+* Heatmaps
+
+These visualizations help identify patterns in Netflix content distribution and characteristics.
+
+---
+
+## Key Insights
+
+Some major insights discovered during the analysis:
+
+* Movies dominate Netflix content compared to TV shows.
+* Netflix content production increased significantly after 2015.
+* The United States produces the highest number of Netflix titles.
+* International Movies and Dramas are among the most common genres.
+* Most movies fall within the 80–120 minute duration range.
+
+---
+
+## Project Structure
+
+EDA-Netflix-Analysis
+│
+├── data
+│   └── netflix_titles.csv
+│
+├── notebooks
+│   └── netflix_eda.ipynb
+│
+└── README.md
+
+---
+
+## Conclusion
+
+This project demonstrates how Exploratory Data Analysis can be used to uncover patterns and trends in large datasets.
+Through visualization and statistical analysis, we gain insights into the structure and characteristics of Netflix content.
+
+---
+
+## Author
+
+Sanchana
+Aspiring Data Analyst
